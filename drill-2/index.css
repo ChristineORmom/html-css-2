@@ -1,0 +1,80 @@
+body {
+	background-color: bisque;
+}
+
+.one {
+	box-sizing: content-box;
+	height: 20vh;
+	border-style: solid;
+	border-width: 2px 2px;
+	background-color: azure;
+}
+
+.two {
+	box-sizing: border-box;
+	height: 45vh;
+	border-style: dotted;
+	border-width: 2px 2px;
+	background-color: aquamarine;
+
+}
+
+.three {
+	box-sizing: border-box;
+	height: 200px;
+	width: 450px;
+	display: block;
+	border-style: outset;
+	border-width: 10px 10px;
+	background-color: rgb(166, 109, 219);
+	text-align: center;
+	vertical-align: text-center;
+	font-size: xx-large;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+
+}
+
+.small-rectangle {
+	height: 70px;
+	width: 30px;
+	border: 1px solid black;
+	display: block;
+	margin-top: 15px;
+	margin-left: 5px;
+	background-color: green;
+}
+
+.large-rectangle {
+	height: 80px;
+	width: 200px;
+	border: 1px solid black;
+	display: block;
+	background-color: blue;
+	margin-top: -80px;
+	margin-left: 120px;
+}
+
+.circle {
+	height: 80px;
+	width: 80px;
+	border: 1px solid black;
+	display:block;
+	background-color: blueviolet;
+	margin-top: -80px;
+	margin-left: 400px;
+	border-radius: 50%;
+}
+
+.inner-box {
+	box-sizing: border-box;
+	height: 150px;
+	width: 500px;
+	display: block;
+	background-color:lightskyblue;
+	border-style: outset;
+	border-width: 10px 10px;
+	margin-top: 30px;
+	margin-left: 90px;
+}
+
